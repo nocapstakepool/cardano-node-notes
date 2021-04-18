@@ -1,5 +1,5 @@
 # UPDATE from 1.26.1 to 1.26.2
-# Important for Block Producer Nodes
+## Important for Block Producer Nodes
 
 Thank you saulgodman
 https://forum.cardano.org/t/cardano-node-update-from-v-1-26-1-to-v-1-26-2-based-for-coincashew-user/57935
