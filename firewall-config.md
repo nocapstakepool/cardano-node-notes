@@ -28,3 +28,9 @@ sudo ufw allow from [relay 1 ip] to any port [bp node port] proto tcp
 sudo ufw allow from [relay 2 ip] to any port [bp node port] proto tcp
 sudo ufw allow from [relay 3 ip] to any port [bp node port] proto tcp
 ```
+
+- Adding Grafana/Prometheus Firewall Ports
+```
+sudo ufw allow from [relay IP that's hosting grafana] to any port 12798 proto tcp
+sudo ufw allow from [relay IP that's hosting grafana] to any port 9100 proto tcp
+```
