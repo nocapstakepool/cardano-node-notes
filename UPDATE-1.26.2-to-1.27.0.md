@@ -20,7 +20,7 @@ cabal build cardano-node cardano-cli
 ```
 Note: Depending on your server performance, this process can take between 20 and 60 minutes.
 
-– Check if cardano-cli and cardano-node updated to 1.26.2 –
+– Check if cardano-cli and cardano-node updated to 1.27.0 –
 ```
 $(find $HOME/git/cardano-node2/dist-newstyle/build -type f -name "cardano-cli") version
 $(find $HOME/git/cardano-node2/dist-newstyle/build -type f -name "cardano-node") version
