@@ -9,6 +9,18 @@ git clone https://github.com/input-output-hk/cardano-node.git cardano-node2
 cd cardano-node2/
 ```
 
+– Upgrade ghcup and cabal –
+```
+ghcup upgrade 
+ghcup install ghc 8.10.4 
+ghcup set ghc 8.10.4 
+ghc --version 
+ghcup install cabal 3.4.0.0 
+ghcup set cabal 3.4.0.0 
+cabal --version 
+cabal update 
+```
+
 – Checkout new Branch 1.27.0 and Compile –
 ```
 cd $HOME/git/cardano-node2
