@@ -19,7 +19,7 @@ sudo systemctl restart cardano-node
 
 ## PI Memory Usage improvements
 
-1. `Edit cardano-node run` config
+1. Edit `cardano-node run` config
 ```
 +RTS -N4 --disable-delayed-os-memory-return -I0.3 -Iw300 -A16m -n4m -F1.5 -H3G -T -S -RTS
 ```
