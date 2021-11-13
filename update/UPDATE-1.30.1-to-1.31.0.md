@@ -13,7 +13,7 @@ git checkout tags/1.31.0
 ```
 
 *Note: make sure you to have at least ghc 8.10.4 and cabal 3.4.0 before proceeding.*
-(There is a newer version of cabal 3.6.2.0 but I'm not sure if it's required for this upgrade/I have not tested compiling with newer version. See https://github.com/input-output-hk/cardano-node/blob/master/doc/getting-started/install.md for more info.)
+(There is a newer version of cabal 3.6.2.0 but I'm not sure if it's required for this upgrade - https://github.com/input-output-hk/cardano-node/blob/master/doc/getting-started/install.md - as I have not tested compiling with newer version, I suggest to stick with 3.4.0 for this build.)
 ```
 ghcup upgrade
 ghcup install ghc 8.10.4
