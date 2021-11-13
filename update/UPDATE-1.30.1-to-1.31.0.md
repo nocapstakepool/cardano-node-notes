@@ -60,6 +60,7 @@ sudo systemctl start cardano-node
 7. Clean up
 ```
 cd $HOME/git/
+rm -rf cardano-node-old
 mv cardano-node cardano-node-old
 mv cardano-node2 cardano-node
 ```
